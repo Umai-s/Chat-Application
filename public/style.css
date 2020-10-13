@@ -1,0 +1,84 @@
+body, html{
+    width:100%;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(180deg,cornsilk,#d2d2d2);
+}
+
+.chatbox{
+    height: 90%;
+    width: 94%;
+    margin-top: 2%;
+    padding: 0%;
+}
+
+.pro-pic{
+    height: 40px;
+    width:50px;
+    border-radius: 20px ;
+}
+.friend-pic{
+    height: 45px;
+    width:50px;
+    border-radius: 20px ;
+}
+
+.search-box{
+    border-radius: 20px;
+}
+.person-name{
+    font-weight: 600;
+    color: black;
+}
+
+.person-msg{
+    font-size: 12px;
+    max-height: 15px;
+    line-height: 15px;
+}
+.icons{
+    font-size: 20px;
+    color: #9CA1A3;
+}
+
+.chat-pic{
+    height: 35px;
+    width:40px;
+    border-radius: 20px ;
+}
+.receive-msg{
+    background-color: lightgreen;
+    border-radius: 1rem;
+    padding: 10px 15px;
+    display: inline-block;
+}
+.time{
+    font-size: 10px;
+    color: #9CA1A3;
+    margin-top: 3%;
+    margin-left: 1%;
+}
+.send-msg{
+    background-color: lightgray;
+    border-radius: 1rem;
+    padding: 10px 15px;
+    display: inline-block;
+}
+.card{
+    /* vertical height */
+    height: 94vh; 
+}
+#messages{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.dropdown-toggle::before{
+    display: none !important;
+}
